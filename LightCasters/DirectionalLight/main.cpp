@@ -323,7 +323,7 @@ unsigned int loadTexture(char const* path)
 	else
 	{
 		std::cout << "Texture failed to load at path: " << path << std::endl;
-		stbi_image_free(data);
+		stbi_image_free(data); 
 	}
 
 	return textureID;
